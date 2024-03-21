@@ -1,0 +1,2 @@
+test2 birinci satir
+test2 ikinci satir
