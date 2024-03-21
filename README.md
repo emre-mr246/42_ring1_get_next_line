@@ -1,3 +1,4 @@
+
 # get_next_line Project (Ecole 42)
 
 ## Introduction 🚀
@@ -10,7 +11,7 @@ The get_next_line (GNL) project aims to enhance students' understanding of stati
 
 ## Installation 🛠
 
-#####To get started with the get_next_line project:
+To get started with the get_next_line project:
 
 `$ git clone https://github.com/emre-mr246/get_next_line.git`
 
@@ -19,10 +20,10 @@ The get_next_line (GNL) project aims to enhance students' understanding of stati
 Make sure you have a C compiler installed (such as gcc) to compile the library.
 
 ## Usage 🔍
-#####After cloning the project and navigating into the project directory, you can compile the project using:
+After cloning the project and navigating into the project directory, you can compile the project using:
 
 `$gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c -o gnl`
-#####Replace 42 with whatever buffer size you prefer. Then, run it using:
+Replace 42 with whatever buffer size you prefer. Then, run it using:
 
 `$./gnl YOUR_FILE`
 
