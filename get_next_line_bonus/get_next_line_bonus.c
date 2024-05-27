@@ -92,7 +92,7 @@ char	*get_next_line(int fd)
 	char		*line;
 	static char	*input_str[4096];
 
-	if (fd < 0 || fd > 10240 || BUFFER_SIZE <= 0)
+	if (fd < 0 || fd > 4096 || BUFFER_SIZE <= 0)
 		return (NULL);
 	input_str[fd] = ft_append_to_left(fd, input_str[fd]);
 	if (!input_str[fd])
