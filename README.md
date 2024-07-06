@@ -43,3 +43,7 @@ Replace 42 with whatever buffer size you prefer. Then, run it using:
 `$./gnl YOUR_FILE`
 
 This will read from YOUR_FILE and print its contents line by line.
+
+Note: Since printf has been added to libft, you can directly call it by linking with the libft library.
+<a href="https://github.com/emre-mr246/42_ring0_libft"> Click here to go to the libft repository.</a>
+
