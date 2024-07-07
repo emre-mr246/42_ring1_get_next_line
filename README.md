@@ -37,10 +37,10 @@ Make sure you have a C compiler installed (such as gcc) to compile the library.
 ## Usage 🔍
 After cloning the project and navigating into the project directory, you can compile the project using:
 
-`$gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line_bonus.c get_next_line_utils_bonus.c main.c -o gnl`
+`$ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line_bonus.c get_next_line_utils_bonus.c main.c -o gnl`
 Replace 42 with whatever buffer size you prefer. Then, run it using:
 
-`$./gnl YOUR_FILE`
+`$ ./gnl YOUR_FILE`
 
 This will read from YOUR_FILE and print its contents line by line.
 
